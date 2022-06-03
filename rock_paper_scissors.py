@@ -4,7 +4,7 @@ from random import randint
 moves = ["rock","paper","scissors"]
 while True:
     computer = moves[randint(0,2)]
-    player = input("rock, paper or scissors? (or enter 'quit' to the game):  ")
+    player = input("rock, paper or scissors? (or enter 'quit' to end the game):  ")
     
     if player == "quit":
         print("the game has ended...")
